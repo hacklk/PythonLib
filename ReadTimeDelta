@@ -1,0 +1,13 @@
+def readable_timedelta(days):
+    return "{0} week(s) and {1} day(s)".format(*divmod(days, 7))
+
+"""Excercise:
+    Write a function named readable_timedelta.
+    The function should take one argument, an integer days,
+    and return a string that says how many weeks and days that is.
+    For example, calling the function and printing the result like this:
+    print(readable_timedelta(10)) should output the following:
+    1 week(s) and 3 day(s). (Make sure to use this exact format, including the . at the end.)
+    Include a docstring that explains what the function does."""
+
+print(readable_timedelta(10) + ".")
