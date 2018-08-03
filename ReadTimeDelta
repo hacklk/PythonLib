@@ -1,5 +1,5 @@
 def readable_timedelta1(days):
-    return "{0} week(s) and {1} day(s)".format(*divmod(days, 7))
+    return "{0} week(s) and {1} day(s).".format(*divmod(days, 7))
 
 """Excercise:
     Write a function named readable_timedelta.
@@ -23,3 +23,4 @@ def readable_timedelta(days):
     return "{} week(s) and {} day(s).".format(weeks, remainder)
 
 print(readable_timedelta(10))
+
