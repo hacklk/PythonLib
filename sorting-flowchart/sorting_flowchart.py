@@ -1,4 +1,3 @@
-# write your code here
 numbers = [1, 2, 56, 32, 51, 2, 8, 92, 15]
 print(numbers)
 i = 0
