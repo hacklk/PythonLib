@@ -1,5 +1,5 @@
 numbers = [1, 2, 56, 32, 51, 2, 8, 92, 15]
-
+print(numbers)
 
 def sort_list(user_list):
     i = 0
